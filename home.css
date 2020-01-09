@@ -1,0 +1,29 @@
+.grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: auto auto auto auto;
+		grid-template-areas: 
+			"h h h h"
+			"n n n n"
+			"i i t t"
+			"f f f f";
+	}
+	
+#profile {
+	width: 50%;
+	padding-left: 200px;
+	padding-top: 20px;
+	
+}
+
+.profiletext {
+	grid-area: t;
+	padding-top: 10px;
+	font-family: Arial,'Helvetia Neue', Helvetica;
+	font-size: 20px;
+}
+
+.img{
+	grid-area: i;
+	padding-top: 10px;
+}
