@@ -1,0 +1,20 @@
+.grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: auto auto auto auto;
+		grid-template-areas: 
+			"h h h h"
+			"n n n n"
+			"c c c c"
+			"f f f f";
+	}
+	
+h3 {
+	font-family: 'Helvetia Neue', Helvetica , Arial;
+	font-size: 20px;
+	text-align: center;
+}
+
+.featured {
+	grid-area: c;
+}
