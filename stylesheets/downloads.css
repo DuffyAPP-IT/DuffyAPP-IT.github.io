@@ -1,0 +1,60 @@
+.grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: auto auto auto auto;
+		grid-template-areas: 
+			"h h h h"
+			"n n n n"
+			". c c ."
+			"f f f f";
+	}
+	
+	
+h3 {
+	font-family: 'Helvetia Neue', Helvetica , Arial;
+	font-size: 20px;
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Helvetia Neue', Helvetica , Arial;
+	font-size: 16px;
+	text-align: center;
+}
+
+table.t1 {
+		width:30%; 
+		margin-left:auto; 
+		margin-right:auto;
+	}
+	
+th {
+	text-align: left;
+}
+
+.downloads {
+	grid-area: c;
+}
+
+.moto {
+	border:2px solid black;
+}
+
+.ars {
+	border:2px solid black;
+}
+
+.bancrypt {
+	padding-bottom: 3px;
+	border:2px solid black;
+}
+
+.earth {
+	padding-bottom: 3px;
+	border:2px solid black;
+}
+
+.site {
+	padding-bottom: 3px;
+	border:2px solid black;
+}
